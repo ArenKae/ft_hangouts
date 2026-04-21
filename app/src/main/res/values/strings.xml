@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">ft_hangouts</string>
+    <string name="app_name">Contacts</string>
     <string name="Greet">Welcome, traveller.</string>
+    <string name="app_logo">42 icon</string>
+    <string name="search_contact">Search contact icon</string>
     <string name="plus_icon">Plus icon</string>
 </resources>

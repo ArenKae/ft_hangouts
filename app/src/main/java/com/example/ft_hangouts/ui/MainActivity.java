@@ -1,15 +1,19 @@
-package com.example.ft_hangouts;
+package com.example.ft_hangouts.ui;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.ft_hangouts.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+// When a top-level class is made public, it can be imported
+// from any package. Otherwise, it's package-private.
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -30,6 +34,4 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
 }
