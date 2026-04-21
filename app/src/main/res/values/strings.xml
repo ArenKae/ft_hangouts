@@ -2,6 +2,7 @@
     <string name="app_name">Contacts</string>
     <string name="Greet">Welcome, traveller.</string>
     <string name="app_logo">42 icon</string>
-    <string name="search_contact">Search contact icon</string>
-    <string name="plus_icon">Plus icon</string>
+    <string name="search_contact">Search contact</string>
+    <string name="no_contacts_yet">No contacts yet</string>
+    <string name="plus_icon">Add a contact</string>
 </resources>
