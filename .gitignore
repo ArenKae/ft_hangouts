@@ -1,0 +1,41 @@
+## Editor
+.vscode/
+.vscode/*
+*~
+\#*\#
+
+# System files
+.DS_Store
+desktop.ini
+settings.json
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# MEMO : delete folder from remote :
+# git rm -r --cached folder_name
+
+# SYNC LOCAL BRANCH FROM REMOTE :
+# git fetch
+# git merge origin/main
+
+# Exctract .tar archive :
+# tar -xf foo.tar
+
+# Create .tar archive :
+# tar -cf archive_name.tar file1 folder_1/
