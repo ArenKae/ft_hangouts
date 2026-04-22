@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.ft_hangouts.model.Contact;
+import com.example.ft_hangouts.ui.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +15,11 @@ public class ContactRepository {
 
     private final DBHelper dbHelper;
 
-    public ContactRepository(Context context) {
+    public ContactRepository(MainActivity context) {
         this.dbHelper = new DBHelper(context);
     }
 
-    // Transform a contact (java object) into a SQLite line.
+    /// Transform a contact (java object) into a SQLite line.
     public long insertContact(Contact contact) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
@@ -35,7 +36,7 @@ public class ContactRepository {
         return newId;
     }
 
-    // Read the table and build a list of Contact objects.
+    /// Read the table and build a list of Contact objects.
     public List<Contact> getAllContacts() {
         List<Contact> contacts = new ArrayList<>();
         SQLiteDatabase db = dbHelper.getReadableDatabase();
